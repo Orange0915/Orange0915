@@ -13,13 +13,18 @@ public class Student {
         this.chinese = chinese;
         this.science = science;
     }
+    public Student(){
+
+    }
     public void print() {
-        int average = (chinese+science)/2;
-        System.out.print(name + "\t" + chinese + "\t" + science);
-        if (average < 68) {
+        System.out.print(name + "\t" + chinese + "\t" + science + "\t" + getAverage());
+        if (getAverage() < 68) {
             System.out.print("\t");
             System.out.println("*");
         }
         System.out.println();
+    }
+    public int getAverage(){
+        return (chinese+science)/2;
     }
 }
