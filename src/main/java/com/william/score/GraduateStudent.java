@@ -1,4 +1,4 @@
-package com.william;
+package com.william.score;
 
 public class GraduateStudent extends Student {
     int thesis;

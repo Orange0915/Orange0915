@@ -1,4 +1,6 @@
-package com.william;
+package com.william.sales;
+
+import com.william.sales.Shoping;
 
 public class NormalCustomer extends Shoping {
     String id;

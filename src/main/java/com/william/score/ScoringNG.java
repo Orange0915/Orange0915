@@ -1,4 +1,4 @@
-package com.william;
+package com.william.score;
 
 public class ScoringNG {
     public static void main(String[] args) {

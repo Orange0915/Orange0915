@@ -1,4 +1,7 @@
-package com.william;
+package com.william.score;
+
+import com.william.score.GraduateStudent;
+import com.william.score.Student;
 
 public class Scoring {
     public static void main(String[] args) {
