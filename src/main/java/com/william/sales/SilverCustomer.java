@@ -5,7 +5,7 @@ public class SilverCustomer extends NormalCustomer {
         super(id, amount);
     }
     public void print() {
-        int money = amount - amount/1000*100;
+        double money = amount - amount/1000*100;
         coupon = amount/1000*100;
         if (amount > 1000) {
             System.out.println(id + "\t" + amount + "\t" + money + "\t" + coupon);
