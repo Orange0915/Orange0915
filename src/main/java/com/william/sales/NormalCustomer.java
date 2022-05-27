@@ -1,7 +1,6 @@
 package com.william.sales;
 
 import com.william.sales.Shoping;
-
 public class NormalCustomer {
     String id;
     int amount;
